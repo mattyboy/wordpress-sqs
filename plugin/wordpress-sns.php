@@ -142,13 +142,13 @@ function help_callback() {
 <p>wpsns-form class is important. Do not leave it off.</p>
 <h4>Example sns Form:</h4>
 <pre>
-  <form class="wpsns-form" action="/wp-admin/admin-ajax.php" method="post">
-    <input name="contact" type="text" placeholder="Contact Name *" />
-    <input name="email" type="text" placeholder="Email Address *" />
-    <input name="subject" type="text" placeholder="Subject *" />
-    <textarea name="message"></textarea>
-    <button type="button">Submit</button>
-  </form>
+  &lt;form class=&quot;wpsns-form&quot; action=&quot;/wp-admin/admin-ajax.php&quot; method=&quot;post&quot;&gt;
+    &lt;input name=&quot;contact&quot; type=&quot;text&quot; placeholder=&quot;Contact Name *&quot; /&gt;
+    &lt;input name=&quot;email&quot; type=&quot;text&quot; placeholder=&quot;Email Address *&quot; /&gt;
+    &lt;input name=&quot;subject&quot; type=&quot;text&quot; placeholder=&quot;Subject *&quot; /&gt;
+    &lt;textarea name=&quot;message&quot;&gt;&lt;/textarea&gt;
+    &lt;button type=&quot;button&quot;&gt;Submit&lt;/button&gt;
+  &lt;/form&gt;
 </pre>
   <?php
 }
